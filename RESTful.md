@@ -57,8 +57,11 @@ uri + http方法 + 媒体类型
 - put 返回修改后的项
 - delete status 204 
 
-
-
+### 参数
+- query string 一般为可选参数 `?q=age`
+- router params 一般必选可放在这 如：`/user/:id`
+- body 如 `{name: "Teady"}`
+- header 请求头
 
 
 
