@@ -28,10 +28,44 @@ file 列出文件类型
 - *.html 所有html文件
 - [:lower:].html 以小写字母开头的文件，类似的还有[:alnum:] [:alpha:] [:digit:] [:lower:] [:upper:]
 
-mkdir cp mv 等可以一次操作多个文件 如 mkdir dir1 dir2 dir3 
+mkdir mv 等可以一次操作多个文件，如：
+- mkdir dir1 dir2 dir3 创建多个文件夹
+- mv file1 file2 dir 将多个文件移动到dir文件夹下
 
-### cp
+### `cp`
+> **注意** 命令参数使用`cp -v a.js b.js` -v在cp后 而不是末尾
+
 -r 递归复制
 -u 仅复制目标目录中不存在的文件，或者是文件内容新于目标目录中已经存在的文件
+
+
+### `rm`
+
+  消息**删除**命令使用，`rm * .html`中间的空格会坑爹的把所有文件删除 并且可能告诉你找不到 .html 文件。
+  
+### `ln`
+
+硬链接的局限性：
+1. 一个硬链接不能关联它所在文件系统之外的文件。
+2. 一个硬链接不能关联一个目录。
+
+- 创建硬链接 `ln file link`
+- 创建软链接 `ln -s item link`
+
+链接就是创建文件额外的名字部分
+
+```
+ls -li 第一列为文件索引，可判断为同一文件
+
+26070994 drwxr-xr-x  3 xiangwen  staff    96  1 13 21:55 dir1
+26070995 drwxr-xr-x  3 xiangwen  staff    96  1 13 21:55 dir2
+26071184 -rw-r--r--  4 xiangwen  staff  6804  1 13 21:48 fun
+26071184 -rw-r--r--  4 xiangwen  staff  6804  1 13 21:48 fun-hard
+```
+
+`zless`可用以查看gzip压缩的文件
+
+
+
 
 
