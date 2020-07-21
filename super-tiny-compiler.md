@@ -82,5 +82,12 @@ AST看上去是这样的：
 ### Code Generation
 有很多种方式，有的是复用之前的tokens，有的是创建了线性打印代码节点的代码表示，或者干脆直接在AST上递归处理
 
+>**后面看源码去**
+
+>TOKEN部分：token 就是while中各种策略，定义一个游标current变量，然后将string，name, number都解析成一个个object
+>PARSE部分：对tokens进行深度优先遍历，递归循环最终的AST(匹配括号时，skip当前的token)
+>TRAVERSER：先观察visitor，更加visitor定义，traverse整个AST,在enter和exit执行一些逻辑（供tranformer调用）
+>transformer: 调用traverser来执行真正的代码转换逻辑
+>CODE GENERATOR: 对newAST分情况递归调用，生成new code
 
 
