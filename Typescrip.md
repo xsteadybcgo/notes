@@ -1,0 +1,2 @@
+- `as const`
+- ts can only narrow down to a explict type
