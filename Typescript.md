@@ -1,2 +1,4 @@
 - `as const`
 - ts can only narrow down to a explict type
+- Discriminated unions break the union type，then narrow down them
+- todo
