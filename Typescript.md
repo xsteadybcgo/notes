@@ -22,3 +22,4 @@ function doSomething(f: Function) {
 如果想创建不调用的函数类型，可以使用`()=>void`
 
 - literal function 和 arrow function 在使用void return type上不太一样，前者强一致性，后者忽略不一致类型
+- type 与 interface 的最大区别在于interface can be reopen , 添加或扩展属性
