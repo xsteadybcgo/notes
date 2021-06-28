@@ -43,7 +43,7 @@
   - Webview 自定义editor、view、panel，甚至集成React/Svelte等生成webview，功能十分强大但必要性需要考虑，毕竟很“重”。
   - Debugger调试工具集成，使用vscode的ui，通过DA与DAP集成调试工具
   - Notebook etc
-
++ 语言类型扩展
 
 ### 4. 文档延伸阅读
 - [DOCS](https://code.visualstudio.com/docs) 可以更好更全面的来评估vscode插件的能力
