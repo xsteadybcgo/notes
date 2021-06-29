@@ -40,7 +40,7 @@
   - icon主题定制
 + Workbench 
   - 各个主要区域的扩展![image](https://user-images.githubusercontent.com/19681921/123679604-3fa01e80-d87a-11eb-9355-db4f5a6eedce.png)
-  - Webview 自定义editor、view、panel，甚至集成React/Svelte等生成webview，功能十分强大但必要性需要考虑，毕竟很“重”。
+  - Webview 自定义editor、view、panel，甚至集成React/Svelte等生成webview，功能十分强大但必要性需要考虑，“重”。
   - Debugger调试工具集成，使用vscode的ui，通过DA与DAP集成调试工具
   - Notebook etc
 + 语言类型扩展
