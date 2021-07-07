@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T07:56:26.432Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="bZ89m_4THPsOY-uwiGqN" version="12.9.14" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-07T08:19:02.335Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="KzB0ifD82JQvm7MIhmLA" version="12.9.14" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2213" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2451" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,7 +15,7 @@
             <mxRectangle x="160" y="60" width="130" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="COfyx7jqv4ravwQTbV8G-6" value="1. analysis  (解析配置文件，项目启动与运行时检查,，&#xa;并决定是否需要执行2.3)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="COfyx7jqv4ravwQTbV8G-5" vertex="1">
+        <mxCell id="COfyx7jqv4ravwQTbV8G-6" value="1. analysis  (解析配置文件，项目启动与运行时检查与解析,，&#xa;根据场景决定是否需要执行2.3)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="COfyx7jqv4ravwQTbV8G-5" vertex="1">
           <mxGeometry y="26" width="320" height="44" as="geometry" />
         </mxCell>
         <mxCell id="COfyx7jqv4ravwQTbV8G-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=12;dashed=1;" parent="COfyx7jqv4ravwQTbV8G-5" vertex="1">
@@ -102,30 +102,30 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cotPTMKwksQwkWC-sh3F-2" value="Settings" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="170" y="412" width="320" height="130" as="geometry">
+        <mxCell id="cotPTMKwksQwkWC-sh3F-2" value="contract view" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="170" y="412" width="320" height="122" as="geometry">
             <mxRectangle x="170" y="412" width="80" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cotPTMKwksQwkWC-sh3F-3" value="view提供redspot配置文件的渲染与修改" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="cotPTMKwksQwkWC-sh3F-2" vertex="1">
-          <mxGeometry y="26" width="320" height="26" as="geometry" />
+        <mxCell id="cotPTMKwksQwkWC-sh3F-3" value="view提供redspot配置文件的渲染与修改&#xa;（文本/下拉框/路径选择）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="cotPTMKwksQwkWC-sh3F-2" vertex="1">
+          <mxGeometry y="26" width="320" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="cotPTMKwksQwkWC-sh3F-4" value="view提供配置文件的执行" style="text;strokeColor=#000000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="cotPTMKwksQwkWC-sh3F-2" vertex="1">
-          <mxGeometry y="52" width="320" height="26" as="geometry" />
+        <mxCell id="JMYnYDo8RzbJJTalbHdE-18" value="view提供合约类型选择，并修改相关配置" style="text;strokeColor=#000000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="cotPTMKwksQwkWC-sh3F-2">
+          <mxGeometry y="70" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="cotPTMKwksQwkWC-sh3F-5" value="action提供配置文件脚本的快捷执行" style="text;strokeColor=#000000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="cotPTMKwksQwkWC-sh3F-2" vertex="1">
-          <mxGeometry y="78" width="320" height="26" as="geometry" />
+        <mxCell id="cotPTMKwksQwkWC-sh3F-4" value="view提供配置文件合约compile（检测、安装、执行、提示）" style="text;strokeColor=#000000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="cotPTMKwksQwkWC-sh3F-2" vertex="1">
+          <mxGeometry y="96" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="JMYnYDo8RzbJJTalbHdE-1" value="view提供配置项路径选择" style="text;strokeColor=#000000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="cotPTMKwksQwkWC-sh3F-2">
-          <mxGeometry y="104" width="320" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="cotPTMKwksQwkWC-sh3F-7" value="Explorer" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="170" y="560" width="320" height="80" as="geometry">
+        <mxCell id="cotPTMKwksQwkWC-sh3F-7" value="network view" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="170" y="560" width="320" height="124" as="geometry">
             <mxRectangle x="170" y="560" width="80" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="JMYnYDo8RzbJJTalbHdE-17" value="view提供redspot配置文件的渲染与修改&#xa;（文本/下拉框）" style="text;strokeColor=#000000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="cotPTMKwksQwkWC-sh3F-7">
+          <mxGeometry y="26" width="320" height="44" as="geometry" />
+        </mxCell>
         <mxCell id="cotPTMKwksQwkWC-sh3F-8" value="explorer界面拆解，以支持editor编码与explorer界面的双向&#xa;绑定编辑，如Account等" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="cotPTMKwksQwkWC-sh3F-7" vertex="1">
-          <mxGeometry y="26" width="320" height="54" as="geometry" />
+          <mxGeometry y="70" width="320" height="54" as="geometry" />
         </mxCell>
         <mxCell id="cotPTMKwksQwkWC-sh3F-17" value="Exposed Interface" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="170" y="710" width="320" height="60" as="geometry">
